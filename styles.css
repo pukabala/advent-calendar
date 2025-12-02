@@ -170,17 +170,17 @@ header p {
 
 .close-btn {
     position: absolute;
-    top: -40px;
-    right: 0;
-    font-size: 32px;
+    top: -12px;
+    right: -12px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
     line-height: 1;
     z-index: 1001;
     background: rgba(0, 0, 0, 0.5);
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
