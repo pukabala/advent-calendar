@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const stumpImg = document.createElement('img');
     stumpImg.src = './assets/images/stump.png'; // Make sure this file exists!
     stumpImg.alt = 'Tree Stump';
-    stumpImg.classList.add('door-img');
+    stumpImg.classList.add('door-img', 'stump');
 
     stumpImg.style.width = '55px';
 
