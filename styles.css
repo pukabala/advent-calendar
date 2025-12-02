@@ -67,7 +67,7 @@ header p {
     align-items: center;
     gap: 0px;
     padding-bottom: 20vh;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .stump {
@@ -87,7 +87,7 @@ header p {
 
 @media (min-width: 600px) {
     .calendar-grid {
-        margin-top: 25vh;
+        margin-top: 20vh;
     }
 
     body {
