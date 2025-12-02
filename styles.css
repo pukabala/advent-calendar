@@ -22,10 +22,10 @@ body {
     background-image: url('assets/images/background.png');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     color: var(--text-color);
     font-family: var(--font-body);
-    min-height: 100vh;
+    min-height: 305vw;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -65,9 +65,9 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 0px;
     padding-bottom: 40px;
-    margin-top: 50vw;
+    margin-top: 29.5vh;
 }
 
 @media (min-width: 480px) {
@@ -78,11 +78,12 @@ header p {
 
 @media (min-width: 600px) {
     .calendar-grid {
-        margin-top: 300px;
+        margin-top: 29.5vh;
     }
 
     body {
         background-size: 600px auto;
+        min-height: 1825px;
     }
 }
 
