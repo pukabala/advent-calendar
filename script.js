@@ -88,8 +88,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Simplified modal: Just the image, no text, no title
         let contentHtml = '';
 
-        if (item.type === 'image') {
-            contentHtml += `<img src="${item.url}" alt="Day ${item.day}" class="modal-card-img">`;
+        if (item.type === 'image' || item.type === 'gif') {
+            let imgHtml = `<img src="${item.url}" alt="Day ${item.day}" class="modal-card-img">`;
+
+            if (item.link) {
+                contentHtml += `<a href="${item.link}" target="_blank" rel="noopener noreferrer">${imgHtml}</a>`;
+            } else {
+                contentHtml += imgHtml;
+            }
         } else {
             contentHtml += `<p>${item.text}</p>`;
         }
